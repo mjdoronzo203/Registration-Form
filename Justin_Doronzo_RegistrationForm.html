@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Registration Form</title>
+	<meta name="description" content="My First Registration Form">
+</head>
+<body>
+<form>
+	<div>
+		<h1>My Registration Form</h1>
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name">
+	</div><br>
+	<div>
+		<label for="last_name">Last Name:</label>
+		<input type="text" id="last_name" name="last_name">
+	</div><br>
+	<div>
+		<label for="email">Email:</label>
+		<input type="text" id="email" name="email">
+	</div><br>
+	<div>
+		<label for="">Password:</label>
+		<input type="text" id="password" name="password">
+	</div><br>
+	<div>
+		<label for="PW_Confirm">PW Confirm:</label>
+		<input type="text" id="PW_Confirm" name="PW_Confirm">
+	</div><br>
+	<div>
+		<label for="birthday">Birthday:</label>
+		<input type="date" id="birthday" name="birthday">
+	</div><br>
+	<div>
+		<label for="male">Male</label>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="female">Female</label>
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="decline">Other</label>
+		<input type="radio" id="decline" name="gender" value="decline">
+	</div><br>
+	<div>
+		<label for="description">A short description about yourself.</label><br>
+		<textarea name="description"></textarea>
+	</div><br>
+	<div>
+		<label for="fav language">Favorite Language:</label>
+		<select name="fav language">
+		    <option value="javascript">JavaScript</option>
+		    <option value="python">Python</option>
+		    <option value="C++">C++</option>
+		    <option value="java">Java</option>
+		</select>
+	</div><br>
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
